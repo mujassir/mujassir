@@ -17,6 +17,7 @@
   <a href="https://linkedin.com/in/mujassir"><img src="https://img.shields.io/badge/LinkedIn-mujassir-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/mujassir"><img src="https://img.shields.io/badge/GitHub-mujassir-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://mujassir.github.io/mujassir/"><img src="https://img.shields.io/badge/Portfolio-mujassir.github.io-38BDF8?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.toptal.com/developers/resume/mujassir-nasir#Bxpxzd"><img src="https://img.shields.io/badge/Toptal-mujassir-3863A0?style=flat-square&logo=toptal&logoColor=white" alt="Toptal"></a>
 </p>
 
 ---
@@ -122,4 +123,5 @@ Currently at **Cloud Solutions** in Riyadh, building **Blood Bank** and **Lab** 
   <a href="mailto:mujassir@gmail.com"><img src="https://img.shields.io/badge/Email-mujassir%40gmail.com-38BDF8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/in/mujassir"><img src="https://img.shields.io/badge/LinkedIn-mujassir-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://mujassir.github.io/mujassir/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Site-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.toptal.com/developers/resume/mujassir-nasir#Bxpxzd"><img src="https://img.shields.io/badge/Toptal-mujassir-3863A0?style=for-the-badge&logo=toptal&logoColor=white" alt="Toptal"></a>
 </p>
