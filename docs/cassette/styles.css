@@ -123,6 +123,12 @@ a {
   color: var(--ink);
 }
 
+.nav-links .btn--primary,
+.nav-links .btn--primary:hover,
+.nav-links .btn--primary:focus-visible {
+  color: #fff;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
