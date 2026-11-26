@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cassette: Offline Music Player</title>
+  <meta name="description" content="Cassette plays the music files you already own — fully offline. No streaming, no subscriptions, no account. Free on the App Store.">
+  <meta name="theme-color" content="#e85a1c">
+  <link rel="canonical" href="https://mujassir.com/cassette/">
+  <link rel="icon" href="icon.png" type="image/png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mujassir.com/cassette/">
+  <meta property="og:title" content="Cassette: Offline Music Player">
+  <meta property="og:description" content="Play your own music files offline. No streaming, no account, no Wi-Fi needed.">
+  <meta property="og:image" content="https://mujassir.com/cassette/screenshots/01-now-playing.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cassette: Offline Music Player">
+  <meta name="twitter:description" content="Play your own music files offline. No streaming, no account, no Wi-Fi needed.">
+  <meta name="twitter:image" content="https://mujassir.com/cassette/screenshots/01-now-playing.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261126">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a class="brand brand-mark" href="/cassette/">
+        <img src="icon.png" width="1024" height="1024" alt="">
+        Cassette
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li class="nav-hide-sm"><a href="#features">Features</a></li>
+          <li class="nav-hide-sm"><a href="#formats">Formats</a></li>
+          <li><a href="/cassette/privacy/">Privacy</a></li>
+          <li>
+            <a class="btn btn--primary btn--sm" href="https://apps.apple.com/app/cassette-offline-music-player/id6838230184" target="_blank" rel="noopener noreferrer">
+              <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              App Store
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="hero__eyebrow">Offline Music Player</p>
+        <h1 class="hero__title" id="hero-title">Cassette</h1>
+        <p class="hero__lede">Play the music files you already own — fully offline. No streaming, no subscriptions, no account and no Wi‑Fi needed.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://apps.apple.com/app/cassette-offline-music-player/id6838230184" target="_blank" rel="noopener noreferrer">
+            <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            Download on the App Store
+          </a>
+          <a class="btn btn--ghost" href="#features">See features</a>
+        </div>
+        <div class="hero__meta" aria-label="Highlights">
+          <span class="chip">Your files, your device</span>
+          <span class="chip">No account</span>
+          <span class="chip">Free · iPhone &amp; iPad</span>
+        </div>
+      </div>
+
+      <div class="hero__stage" aria-hidden="true">
+        <div class="phone phone--side">
+          <img src="screenshots/03-library.png" alt="" width="1320" height="2868" loading="eager">
+        </div>
+        <div class="phone phone--main">
+          <img src="screenshots/01-now-playing.png" alt="" width="1320" height="2868" loading="eager">
+        </div>
+        <div class="phone phone--side">
+          <img src="screenshots/02-folder.png" alt="" width="1320" height="2868" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="section__head reveal">
+        <h2 id="features-title">Your library. Nowhere else.</h2>
+        <p>Pick folders from Files or iCloud Drive. Cassette indexes what’s inside, plays it on device, and never copies or uploads a note of it.</p>
+      </div>
+
+      <article class="showcase reveal" id="now-playing">
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: var(--accent)">Listen</p>
+          <h3>Now Playing</h3>
+          <p>Large artwork, seek bar, shuffle and repeat — with Lock Screen and Control Center controls, including scrubbing. Audio keeps going in the background and with the screen locked.</p>
+          <ul>
+            <li>Shuffle, repeat one and repeat all — picks up where you left off.</li>
+            <li>CarPlay: browse folders and play on your car’s screen.</li>
+            <li>Siri: “Play Road Trip in Cassette” or “Shuffle Cassette” — also in Shortcuts and Spotlight.</li>
+          </ul>
+        </div>
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/01-now-playing.png" alt="Cassette Now Playing screen with artwork and playback controls" width="1320" height="2868" loading="lazy">
+          </div>
+        </div>
+      </article>
+
+      <article class="showcase showcase--flip reveal" id="folders">
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: #c45a1a">Folders</p>
+          <h3>Pick your folders</h3>
+          <p>Choose one or more music folders. Nested folders are found automatically. Your files stay where they are — Cassette never copies or uploads them.</p>
+          <ul>
+            <li>Add folders from the Files app or iCloud Drive.</li>
+            <li>Rescan when you add new tracks.</li>
+            <li>Remove a folder anytime; deleting the app clears only Cassette’s index.</li>
+          </ul>
+        </div>
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/02-folder.png" alt="Folder view listing songs with artwork and durations" width="1320" height="2868" loading="lazy">
+          </div>
+        </div>
+      </article>
+
+      <article class="showcase reveal" id="library">
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: #1a1614">Library</p>
+          <h3>Browse folder by folder</h3>
+          <p>The sidebar lists every folder with songs. Open one to see artwork, titles and lengths — then tap a track to queue the rest of the folder in your current sort order.</p>
+          <ul>
+            <li>Sort by name, date modified or date created.</li>
+            <li>Ascending or descending — remembered between launches.</li>
+            <li>Current song stays highlighted while you browse.</li>
+          </ul>
+        </div>
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/03-library.png" alt="Cassette library sidebar with folders and song list" width="1320" height="2868" loading="lazy">
+          </div>
+        </div>
+      </article>
+
+      <article class="showcase showcase--flip reveal" id="search">
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: #e85a1c">Search</p>
+          <h3>Find any song</h3>
+          <p>Search songs, artists and albums at once. Matching results jump you to the right folder and start playback.</p>
+          <ul>
+            <li>Every word in your query can match title, artist or album.</li>
+            <li>Better matches rise to the top.</li>
+            <li>Search from the mini player when you’re already listening.</li>
+          </ul>
+        </div>
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/04-search.png" alt="Cassette search results for songs, artists and albums" width="1320" height="2868" loading="lazy">
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="section" id="formats" aria-labelledby="formats-title">
+      <div class="section__head reveal">
+        <h2 id="formats-title">Formats you already have</h2>
+        <p>MP3, M4A, AAC, ALAC, FLAC, WAV and AIFF — with title, artist, album, duration and embedded artwork from the files themselves.</p>
+        <ul class="formats" aria-label="Supported audio formats">
+          <li>MP3</li>
+          <li>M4A</li>
+          <li>AAC</li>
+          <li>ALAC</li>
+          <li>FLAC</li>
+          <li>WAV</li>
+          <li>AIFF</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="privacy-title">
+      <div class="privacy-cta reveal">
+        <div>
+          <h2 id="privacy-title">Private by design</h2>
+          <p>Your music never leaves your device. Cassette doesn’t collect any data, show ads or need an account. App Store privacy label: <strong>Data Not Collected</strong>.</p>
+        </div>
+        <a class="btn btn--ghost" href="/cassette/privacy/">Read privacy policy</a>
+      </div>
+    </section>
+
+    <section class="section final-cta reveal" aria-labelledby="download-title">
+      <h2 id="download-title">Get Cassette</h2>
+      <p>Free on the App Store. iPhone and iPad, iOS 17+. Open source on GitHub.</p>
+      <div class="hero__actions" style="justify-content: center; opacity: 1; animation: none;">
+        <a class="btn btn--primary" href="https://apps.apple.com/app/cassette-offline-music-player/id6838230184" target="_blank" rel="noopener noreferrer">
+          <svg class="apple-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          Download on the App Store
+        </a>
+        <a class="btn btn--ghost" href="https://github.com/mujassir/ios-music-player" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Mujassir Nasir · Cassette</p>
+      <p>
+        <a href="/cassette/privacy/">Privacy</a>
+        ·
+        <a href="https://github.com/mujassir/ios-music-player" target="_blank" rel="noopener noreferrer">GitHub</a>
+        ·
+        <a href="https://apps.apple.com/app/cassette-offline-music-player/id6838230184" target="_blank" rel="noopener noreferrer">App Store</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.getElementById("site-header");
+    const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+    );
+    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+  </script>
+</body>
+</html>
