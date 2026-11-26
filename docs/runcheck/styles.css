@@ -708,13 +708,12 @@ a {
     margin-bottom: 3.25rem;
   }
 
+  /* Always content, then screenshot on mobile — ignore desktop flip. */
+  .showcase .showcase__copy,
+  .showcase .showcase__media,
   .showcase--flip .showcase__copy,
   .showcase--flip .showcase__media {
-    order: unset;
-  }
-
-  .showcase__media {
-    order: -1;
+    order: initial;
   }
 
   .showcase__media .phone img {
