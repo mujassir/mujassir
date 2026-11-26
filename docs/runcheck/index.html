@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RunCheck: Walk &amp; Run Stats</title>
   <meta name="description" content="RunCheck turns Apple Health steps and workouts into clear walk, jog and run stats on iPhone. No account, no ads — your data stays on your phone.">
-  <meta name="theme-color" content="#050705">
+  <meta name="theme-color" content="#f2f2f7">
   <link rel="canonical" href="https://mujassir.com/runcheck/">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mujassir.com/runcheck/">
   <meta property="og:title" content="RunCheck: Walk & Run Stats">
   <meta property="og:description" content="Walk, jog and run stats from Apple Health. Private by design. Free on the App Store.">
-  <meta property="og:image" content="https://mujassir.com/runcheck/screenshots/week.jpg">
+  <meta property="og:image" content="https://mujassir.com/runcheck/screenshots/summary-week.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="RunCheck: Walk & Run Stats">
   <meta name="twitter:description" content="Walk, jog and run stats from Apple Health. Private by design.">
-  <meta name="twitter:image" content="https://mujassir.com/runcheck/screenshots/week.jpg">
+  <meta name="twitter:image" content="https://mujassir.com/runcheck/screenshots/summary-week.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,14 +67,14 @@
       </div>
 
       <div class="hero__stage" aria-hidden="true">
-        <div class="phone phone--left">
-          <img src="screenshots/sessions.jpg" alt="" width="598" height="1300" loading="eager">
+        <div class="phone phone--side">
+          <img src="screenshots/summary-daily.jpg" alt="" width="598" height="1300" loading="eager">
         </div>
         <div class="phone phone--main">
-          <img src="screenshots/week.jpg" alt="" width="598" height="1300" loading="eager">
+          <img src="screenshots/summary-week.jpg" alt="" width="598" height="1300" loading="eager">
         </div>
-        <div class="phone phone--right">
-          <img src="screenshots/run-detail.jpg" alt="" width="598" height="1300" loading="eager">
+        <div class="phone phone--side">
+          <img src="screenshots/running-daily.jpg" alt="" width="598" height="1300" loading="eager">
         </div>
       </div>
     </section>
@@ -87,34 +87,32 @@
 
       <div class="feature-grid">
         <article class="feature reveal">
-          <h3>Stats</h3>
+          <h3>Summary</h3>
           <ul>
-            <li><strong>Today</strong> — a step ring against your daily goal, plus distance, energy and active time.</li>
-            <li><strong>Week</strong> — Sunday to Saturday. Swipe between weeks and tap a day to open it.</li>
-            <li><strong>Month</strong> — monthly totals, then a tile for each week (newest first).</li>
-            <li><strong>Walk, jog and run tiles</strong> — time, pace, energy, steps and session count. Empty kinds stay hidden.</li>
+            <li><strong>Daily, Week, Month</strong> — rings against your goals for the tabs you enable.</li>
+            <li><strong>Walk, jog and run tiles</strong> — time, pace, energy, steps and session count.</li>
+            <li>Day and week pickers so you can jump through history quickly.</li>
+            <li>Empty activity kinds stay hidden until you have data.</li>
           </ul>
         </article>
 
         <article class="feature reveal">
-          <h3>Sessions</h3>
+          <h3>Focus tabs</h3>
           <ul>
-            <li>Walks, jogs and runs from Apple Health, listed with distance and duration.</li>
-            <li>Detail for each session: distance, steps, energy, average pace, and avg / min / max for speed, pace and tempo (steps per minute).</li>
-            <li>Speed graph on the detail screen.</li>
-            <li>Steady walks only — casual indoor steps stay in the Walk tile and aren’t listed as sessions.</li>
+            <li>Optional <strong>Running, Jogging, Walk, Steps and Energy</strong> tabs.</li>
+            <li>Each tab has Daily, Week and Month views with its own goals.</li>
+            <li>Only Running is on by default — turn others on in You → Tabs.</li>
+            <li>Sessions list with speed, pace, tempo and a speed graph on detail.</li>
           </ul>
         </article>
 
         <article class="feature reveal">
           <h3>You</h3>
           <ul>
-            <li><strong>Daily goal</strong> — 1,000 to 40,000 steps.</li>
+            <li><strong>Goals</strong> — daily, weekly and monthly targets for the tabs you use.</li>
             <li><strong>Units</strong> — kilometres or miles, plus body weight for energy estimates.</li>
             <li><strong>Pace</strong> — the speeds where a jog and a run start.</li>
-            <li><strong>Sessions</strong> — minimum length and join window for walks, jogs and runs.</li>
             <li><strong>Apple Health</strong> — access status and a shortcut into the Health app.</li>
-            <li>Optional focus tabs for Running, Jogging, Walk, Steps and Energy, each with its own goals.</li>
           </ul>
         </article>
       </div>
@@ -159,28 +157,48 @@
     <section class="section" id="screenshots" aria-labelledby="shots-title">
       <div class="section__head reveal">
         <h2 id="shots-title">Inside the app</h2>
-        <p>Week rings, session lists, run detail with a speed graph, month totals, and the You tab for goals and thresholds.</p>
+        <p>Summary rings, focus tabs, day and week history, and the You tab for goals and units — shown at their natural size.</p>
       </div>
       <div class="shots">
         <figure class="shot reveal">
-          <img src="screenshots/week.jpg" alt="Week view with the daily step ring" width="598" height="1300" loading="lazy">
-          <figcaption>Week</figcaption>
+          <img src="screenshots/summary-week.jpg" alt="Summary week view with activity rings" width="598" height="1300" loading="lazy">
+          <figcaption>Summary · Week</figcaption>
         </figure>
         <figure class="shot reveal">
-          <img src="screenshots/sessions.jpg" alt="Sessions list with walk, jog and run tiles" width="598" height="1300" loading="lazy">
-          <figcaption>Sessions</figcaption>
+          <img src="screenshots/summary-daily.jpg" alt="Summary daily view" width="598" height="1300" loading="lazy">
+          <figcaption>Summary · Daily</figcaption>
         </figure>
         <figure class="shot reveal">
-          <img src="screenshots/run-detail.jpg" alt="Run detail with distance, steps, pace and speed" width="598" height="1300" loading="lazy">
-          <figcaption>Run detail</figcaption>
+          <img src="screenshots/summary-by-each-day.jpg" alt="Summary week broken down by each day" width="598" height="1300" loading="lazy">
+          <figcaption>By each day</figcaption>
         </figure>
         <figure class="shot reveal">
-          <img src="screenshots/month.jpg" alt="Month totals with week tiles" width="598" height="1300" loading="lazy">
-          <figcaption>Month</figcaption>
+          <img src="screenshots/running-daily.jpg" alt="Running focus tab daily view" width="598" height="1300" loading="lazy">
+          <figcaption>Running</figcaption>
         </figure>
         <figure class="shot reveal">
-          <img src="screenshots/you.jpg" alt="You tab with step goal, units and pace settings" width="598" height="1300" loading="lazy">
-          <figcaption>You</figcaption>
+          <img src="screenshots/steps-daily.jpg" alt="Steps focus tab daily view" width="598" height="1300" loading="lazy">
+          <figcaption>Steps</figcaption>
+        </figure>
+        <figure class="shot reveal">
+          <img src="screenshots/walk-week.jpg" alt="Walk focus tab week view" width="598" height="1300" loading="lazy">
+          <figcaption>Walk</figcaption>
+        </figure>
+        <figure class="shot reveal">
+          <img src="screenshots/jogging-week.jpg" alt="Jogging focus tab week view" width="598" height="1300" loading="lazy">
+          <figcaption>Jogging</figcaption>
+        </figure>
+        <figure class="shot reveal">
+          <img src="screenshots/energy-month.jpg" alt="Energy focus tab month view" width="598" height="1300" loading="lazy">
+          <figcaption>Energy</figcaption>
+        </figure>
+        <figure class="shot reveal">
+          <img src="screenshots/you-goals.jpg" alt="You tab goals and units settings" width="598" height="1300" loading="lazy">
+          <figcaption>Goals</figcaption>
+        </figure>
+        <figure class="shot reveal">
+          <img src="screenshots/you-tabs.jpg" alt="You tab for enabling focus tabs" width="598" height="1300" loading="lazy">
+          <figcaption>Tabs</figcaption>
         </figure>
       </div>
     </section>
