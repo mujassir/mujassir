@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon · Offload</title>
+  <meta name="description" content="Offload is coming soon to the App Store. Free iPhone space by moving large videos to your own cloud.">
+  <meta name="theme-color" content="#1aa7c5">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://mujassir.com/offload/coming-soon/">
+  <link rel="icon" href="../icon.png" type="image/png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mujassir.com/offload/coming-soon/">
+  <meta property="og:title" content="Coming Soon · Offload">
+  <meta property="og:description" content="Offload is coming soon to the App Store.">
+  <meta property="og:image" content="https://mujassir.com/offload/icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css?v=20261126cs">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a class="brand brand-mark" href="/offload/">
+        <img src="../icon.png" width="512" height="512" alt="">
+        Offload
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="/offload/">Home</a></li>
+          <li><a href="/offload/privacy/">Privacy</a></li>
+          <li><a href="/offload/coming-soon/" aria-current="page">Coming soon</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="coming-soon">
+    <img class="coming-soon__icon" src="../icon.png" width="512" height="512" alt="Offload">
+    <p class="coming-soon__eyebrow">App Store</p>
+    <h1>Coming soon</h1>
+    <p class="coming-soon__lede">Offload isn’t on the App Store yet. We’re finishing review and will unlock downloads here as soon as it’s live.</p>
+    <div class="coming-soon__actions">
+      <a class="btn btn--primary" href="/offload/">Back to Offload</a>
+      <a class="btn btn--ghost" href="https://github.com/mujassir/ios-storage-manager" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="coming-soon__note">Want a ping when it ships? Watch the repo or check back on this page.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Mujassir Nasir · Offload</p>
+      <p>
+        <a href="/offload/">Home</a>
+        ·
+        <a href="/offload/privacy/">Privacy</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.getElementById("site-header");
+    const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  </script>
+</body>
+</html>
