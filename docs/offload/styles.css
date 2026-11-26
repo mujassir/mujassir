@@ -857,6 +857,21 @@ a {
   color: var(--accent-ink);
 }
 
+.privacy-page li + li {
+  margin-top: 0.5rem;
+}
+
+.privacy-page strong {
+  color: var(--ink, inherit);
+}
+
+.privacy-page code {
+  font: 0.9em ui-monospace, SFMono-Regular, Menlo, monospace;
+  padding: 0.1em 0.35em;
+  border-radius: 6px;
+  background: color-mix(in srgb, currentColor 10%, transparent);
+}
+
 .privacy-page table {
   width: 100%;
   border-collapse: collapse;
