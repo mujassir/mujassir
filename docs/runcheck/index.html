@@ -82,44 +82,139 @@
     <section class="section" id="features" aria-labelledby="features-title">
       <div class="section__head reveal">
         <h2 id="features-title">Built for people who already move</h2>
-        <p>RunCheck sorts Health data by speed, lists real sessions (not pacing around the house), and shows daily, weekly and monthly totals.</p>
+        <p>RunCheck sorts Health data by speed, lists real sessions (not pacing around the house), and gives each activity its own tab with Daily, Week and Month views.</p>
       </div>
 
-      <div class="feature-grid">
-        <article class="feature reveal">
+      <article class="showcase reveal" id="summary">
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/summary-week.jpg" alt="Summary week view with activity rings for walk, jog and run" width="598" height="1300" loading="lazy">
+          </div>
+        </div>
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: var(--accent)">Overview</p>
           <h3>Summary</h3>
+          <p>One place for the day, week or month. Rings track progress against the goals for every tab you’ve enabled, and tiles break out walk, jog and run with time, pace, energy, steps and session count.</p>
           <ul>
-            <li><strong>Daily, Week, Month</strong> — rings against your goals for the tabs you enable.</li>
-            <li><strong>Walk, jog and run tiles</strong> — time, pace, energy, steps and session count.</li>
-            <li>Day and week pickers so you can jump through history quickly.</li>
-            <li>Empty activity kinds stay hidden until you have data.</li>
+            <li>Jump days and weeks with the pickers — history stays a tap away.</li>
+            <li>Empty activity kinds stay hidden until you actually have data.</li>
+            <li>Open a week to see each day side by side when you want the detail.</li>
           </ul>
-        </article>
+        </div>
+      </article>
 
-        <article class="feature reveal">
-          <h3>Focus tabs</h3>
+      <article class="showcase showcase--flip reveal" id="running">
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/running-daily.jpg" alt="Running tab daily view with distance ring, pace and sessions" width="598" height="1300" loading="lazy">
+          </div>
+        </div>
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: #e85d4c">Running</p>
+          <h3>Running — on by default</h3>
+          <p>Built for real runs: distance against your goal, time, pace, energy and steps, then a sessions list you can open for speed, tempo and a speed graph.</p>
           <ul>
-            <li>Optional <strong>Running, Jogging, Walk, Steps and Energy</strong> tabs.</li>
-            <li>Each tab has Daily, Week and Month views with its own goals.</li>
-            <li>Only Running is on by default — turn others on in You → Tabs.</li>
-            <li>Sessions list with speed, pace, tempo and a speed graph on detail.</li>
+            <li>Defaults to runs over 8 km/h lasting at least 5 minutes.</li>
+            <li>Short breaks under 10 seconds are joined into one session.</li>
+            <li>Daily, Week and Month each have their own running goal.</li>
           </ul>
-        </article>
+        </div>
+      </article>
 
-        <article class="feature reveal">
-          <h3>You</h3>
+      <article class="showcase reveal" id="jogging">
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/jogging-week.jpg" alt="Jogging tab week view with week picker and distance goal ring" width="598" height="1300" loading="lazy">
+          </div>
+        </div>
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: #f08a24">Jogging</p>
+          <h3>Jogging — easy pace, still counted</h3>
+          <p>Turn the Jogging tab on when you want easy runs tracked separately from hard efforts. Same Daily / Week / Month layout, with a goal sized for steady kilometres.</p>
           <ul>
-            <li><strong>Goals</strong> — daily, weekly and monthly targets for the tabs you use.</li>
-            <li><strong>Units</strong> — kilometres or miles, plus body weight for energy estimates.</li>
-            <li><strong>Pace</strong> — the speeds where a jog and a run start.</li>
+            <li>Defaults to 5–8 km/h, at least 5 minutes per session.</li>
+            <li>Breaks under 30 seconds stay in the same jog.</li>
+            <li>Week and month pickers make it easy to compare softer weeks.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="showcase showcase--flip reveal" id="walk">
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/walk-week.jpg" alt="Walk tab week view with distance against walk goal" width="598" height="1300" loading="lazy">
+          </div>
+        </div>
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: #3b82f6">Walk</p>
+          <h3>Walk — purposeful walks, not fidgeting</h3>
+          <p>Walks are filtered so short indoor pacing doesn’t fill the list. You get distance, time, pace, energy and steps for walks that actually count as sessions.</p>
+          <ul>
+            <li>Defaults to under 5 km/h and at least 10 minutes.</li>
+            <li>Gaps under 2 minutes are joined so a pause at a light doesn’t split the walk.</li>
+            <li>Week view is useful for long walking weeks against a kilometre goal.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="showcase reveal" id="steps">
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/steps-daily.jpg" alt="Steps tab daily view with step ring, distance and energy" width="598" height="1300" loading="lazy">
+          </div>
+        </div>
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: #5bb8e8">Steps</p>
+          <h3>Steps — the full day total</h3>
+          <p>When you care about the step count itself, the Steps tab shows the ring against your daily, weekly or monthly target, plus distance and energy for that period.</p>
+          <ul>
+            <li>Day strip for the current week; jump to any day with data.</li>
+            <li>Pairs cleanly with a 10,000-step (or whatever you set) goal.</li>
+            <li>By-each-day views help spot quiet weekdays vs active ones.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="showcase showcase--flip reveal" id="energy">
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/energy-month.jpg" alt="Energy tab month view with kcal goal and breakdown by walk, jog and run" width="598" height="1300" loading="lazy">
+          </div>
+        </div>
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: #8b5cf6">Energy</p>
+          <h3>Energy — kcal with a breakdown</h3>
+          <p>See active energy for the day, week or month against your goal, then how much came from walking, jogging and running — so you know what actually burned the calories.</p>
+          <ul>
+            <li>Uses your body weight from You for estimates when Health needs it.</li>
+            <li>Activity list colour-matches Walk, Jogging and Running.</li>
+            <li>Month view is a quick check against a bigger kcal target.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="showcase reveal" id="you">
+        <div class="showcase__media">
+          <div class="phone">
+            <img src="screenshots/you-tabs.jpg" alt="You tab showing toggles for Running, Jogging, Walk, Steps and Energy" width="598" height="1300" loading="lazy">
+          </div>
+        </div>
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: var(--ink)">You</p>
+          <h3>You — tabs, goals and units</h3>
+          <p>Summary and You are always there. Everything else is optional: enable Jogging, Walk, Steps or Energy only when you want them in the tab bar.</p>
+          <ul>
+            <li><strong>Tabs</strong> — toggle focus tabs; swipe the bar when they don’t all fit.</li>
+            <li><strong>Goals</strong> — daily, weekly and monthly targets per enabled tab.</li>
+            <li><strong>Units &amp; pace</strong> — km or miles, body weight, and where jog vs run starts.</li>
             <li><strong>Apple Health</strong> — access status and a shortcut into the Health app.</li>
           </ul>
-        </article>
-      </div>
+        </div>
+      </article>
 
       <div class="classify reveal" aria-labelledby="classify-title">
         <table>
-          <caption id="classify-title" style="caption-side: top; text-align: left; padding: 1rem 1rem 0.25rem; color: var(--ink); font-family: var(--font-display); font-weight: 700; font-size: 1.1rem;">
+          <caption id="classify-title">
             How activity is classified (defaults — editable in You)
           </caption>
           <thead>
@@ -156,14 +251,10 @@
 
     <section class="section" id="screenshots" aria-labelledby="shots-title">
       <div class="section__head reveal">
-        <h2 id="shots-title">Inside the app</h2>
-        <p>Summary rings, focus tabs, day and week history, and the You tab for goals and units — shown at their natural size.</p>
+        <h2 id="shots-title">More from inside the app</h2>
+        <p>Daily and month Summary layouts, day-by-day history, and the Goals screen.</p>
       </div>
       <div class="shots">
-        <figure class="shot reveal">
-          <img src="screenshots/summary-week.jpg" alt="Summary week view with activity rings" width="598" height="1300" loading="lazy">
-          <figcaption>Summary · Week</figcaption>
-        </figure>
         <figure class="shot reveal">
           <img src="screenshots/summary-daily.jpg" alt="Summary daily view" width="598" height="1300" loading="lazy">
           <figcaption>Summary · Daily</figcaption>
@@ -173,32 +264,16 @@
           <figcaption>By each day</figcaption>
         </figure>
         <figure class="shot reveal">
-          <img src="screenshots/running-daily.jpg" alt="Running focus tab daily view" width="598" height="1300" loading="lazy">
-          <figcaption>Running</figcaption>
+          <img src="screenshots/summary-month.jpg" alt="Summary month view" width="598" height="1300" loading="lazy">
+          <figcaption>Summary · Month</figcaption>
         </figure>
         <figure class="shot reveal">
-          <img src="screenshots/steps-daily.jpg" alt="Steps focus tab daily view" width="598" height="1300" loading="lazy">
-          <figcaption>Steps</figcaption>
-        </figure>
-        <figure class="shot reveal">
-          <img src="screenshots/walk-week.jpg" alt="Walk focus tab week view" width="598" height="1300" loading="lazy">
-          <figcaption>Walk</figcaption>
-        </figure>
-        <figure class="shot reveal">
-          <img src="screenshots/jogging-week.jpg" alt="Jogging focus tab week view" width="598" height="1300" loading="lazy">
-          <figcaption>Jogging</figcaption>
-        </figure>
-        <figure class="shot reveal">
-          <img src="screenshots/energy-month.jpg" alt="Energy focus tab month view" width="598" height="1300" loading="lazy">
-          <figcaption>Energy</figcaption>
+          <img src="screenshots/steps-by-each-day.jpg" alt="Steps broken down by each day of the week" width="598" height="1300" loading="lazy">
+          <figcaption>Steps · By day</figcaption>
         </figure>
         <figure class="shot reveal">
           <img src="screenshots/you-goals.jpg" alt="You tab goals and units settings" width="598" height="1300" loading="lazy">
           <figcaption>Goals</figcaption>
-        </figure>
-        <figure class="shot reveal">
-          <img src="screenshots/you-tabs.jpg" alt="You tab for enabling focus tabs" width="598" height="1300" loading="lazy">
-          <figcaption>Tabs</figcaption>
         </figure>
       </div>
     </section>
