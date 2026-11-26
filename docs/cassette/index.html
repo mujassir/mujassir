@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cassette: Offline Music Player</title>
-  <meta name="description" content="Cassette plays the music files you already own — fully offline. No streaming, no subscriptions, no account. Free on the App Store.">
+  <meta name="description" content="Cassette plays the music files you already own — fully offline, with CarPlay and Siri. No streaming, no subscriptions, no account. Free on the App Store.">
   <meta name="theme-color" content="#e85a1c">
   <link rel="canonical" href="https://mujassir.com/cassette/">
   <link rel="icon" href="icon.png" type="image/png">
@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261126c">
+  <link rel="stylesheet" href="styles.css?v=20261126d">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -37,6 +37,7 @@
       <nav aria-label="Primary">
         <ul class="nav-links">
           <li class="nav-hide-sm"><a href="#features">Features</a></li>
+          <li class="nav-hide-sm"><a href="#carplay">CarPlay</a></li>
           <li class="nav-hide-sm"><a href="#formats">Formats</a></li>
           <li><a href="/cassette/privacy/">Privacy</a></li>
           <li>
@@ -65,7 +66,7 @@
         </div>
         <div class="hero__meta" aria-label="Highlights">
           <span class="chip">Your files, your device</span>
-          <span class="chip">No account</span>
+          <span class="chip">CarPlay</span>
           <span class="chip">Free · iPhone &amp; iPad</span>
         </div>
       </div>
@@ -95,9 +96,9 @@
           <h3>Now Playing</h3>
           <p>Large artwork, seek bar, shuffle and repeat — with Lock Screen and Control Center controls, including scrubbing. Audio keeps going in the background and with the screen locked.</p>
           <ul>
-            <li>Shuffle, repeat one and repeat all — picks up where you left off.</li>
-            <li>CarPlay: browse folders and play on your car’s screen.</li>
-            <li>Siri: “Play Road Trip in Cassette” or “Shuffle Cassette” — also in Shortcuts and Spotlight.</li>
+            <li>Shuffle, repeat one and repeat all.</li>
+            <li>Plays straight through a folder and wraps from the top.</li>
+            <li>Picks up where you left off next time.</li>
           </ul>
         </div>
         <div class="showcase__media">
@@ -157,6 +158,68 @@
         <div class="showcase__media">
           <div class="phone">
             <img src="screenshots/04-search.png" alt="Cassette search results for songs, artists and albums" width="1320" height="2868" loading="lazy">
+          </div>
+        </div>
+      </article>
+
+      <article class="showcase reveal" id="carplay">
+        <div class="showcase__copy">
+          <p class="showcase__label" style="--tab: var(--accent)">CarPlay</p>
+          <h3>Built for the dash</h3>
+          <p>Connect to CarPlay and browse the same folders you added on your iPhone. Tap a song to play — Now Playing controls stay on the car’s screen.</p>
+          <ul>
+            <li>Library → folder → songs → Now Playing.</li>
+            <li>Your library and queue stay in sync with the phone.</li>
+            <li>Ask Siri: “Play Road Trip in Cassette” or “Shuffle Cassette” — even with the app closed. Also in Shortcuts and Spotlight.</li>
+          </ul>
+        </div>
+        <div class="showcase__media">
+          <div class="carplay" role="img" aria-label="CarPlay Library showing music folders">
+            <div class="carplay__bezel">
+              <div class="carplay__screen">
+                <header class="carplay__bar">
+                  <span class="carplay__app">Cassette</span>
+                  <span class="carplay__title">Library</span>
+                </header>
+                <ul class="carplay__list">
+                  <li>
+                    <span class="carplay__icon" aria-hidden="true"></span>
+                    <span>
+                      <strong>Road Trip</strong>
+                      <small>24 songs</small>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="carplay__icon" aria-hidden="true"></span>
+                    <span>
+                      <strong>Morning Mix</strong>
+                      <small>18 songs</small>
+                    </span>
+                  </li>
+                  <li class="is-active">
+                    <span class="carplay__icon" aria-hidden="true"></span>
+                    <span>
+                      <strong>Favorites</strong>
+                      <small>Now Playing</small>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="carplay__icon" aria-hidden="true"></span>
+                    <span>
+                      <strong>Focus</strong>
+                      <small>12 songs</small>
+                    </span>
+                  </li>
+                </ul>
+                <footer class="carplay__now">
+                  <div class="carplay__art" aria-hidden="true"></div>
+                  <div>
+                    <strong>Windows Down</strong>
+                    <small>Favorites</small>
+                  </div>
+                </footer>
+              </div>
+            </div>
           </div>
         </div>
       </article>
